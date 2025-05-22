@@ -72,6 +72,7 @@ if (isSunny||hasUmbrella&&temperature>=20&&temperature<=30){
 
 */
 
+/*
 5
 
 const number = 23;
@@ -83,3 +84,32 @@ const s3 = `${number}`
 console.log(typeof s1, s1);
 console.log(typeof s2, s2);
 console.log(typeof s3, s3);
+
+*/
+
+6
+
+const string = '12';
+const number = Number(string);
+console.log(typeof number, number);
+
+7
+
+console.log(1 == "1");
+console.log(1 == "1s");
+console.log(1 === "1");
+console.log(1 !== "1");
+
+8
+
+const score = 100;
+const additionalScore = "200"
+let finalScore;
+
+if (additionalScore === 200) {
+    finalScore = score + additionalScore;
+}
+else {
+    finalScore = score;
+}
+console.log(finalScore);
