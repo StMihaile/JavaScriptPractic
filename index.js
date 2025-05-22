@@ -136,7 +136,7 @@ if(tumbler) {
 tumbler ? console.log("Свет включен"):console.log("Свет выключен");
 
 */
-
+/*
 10
 
 const day = 6;
@@ -169,3 +169,45 @@ switch (day) {
 
 }
 console.log(dayName);
+
+*/
+
+11
+
+const isRain = true;
+
+isRain ? console.log("Идет дождь") : console.log("Дождя нет");
+
+12
+
+let minPrice = 1500
+let maxPrise = 7000
+let price = prompt('Введите цену кросовок');
+
+if (price > maxPrise) {
+    alert('Цена слишком большая');
+} else if (price < minPrice) {
+    alert("Цена слишком маленькая");
+} else {
+    alert("Цена нормальная")
+}
+
+13
+
+let freeTill = Number(prompt('Введите номер кассы'));
+switch (freeTill) {
+    case 1:
+        alert("Свободная касса №1");
+        break;
+    case 2:
+        alert("Свободная касса №2");
+        break;
+    case 3:
+        alert("Свободная касса №3");
+        break;
+    case 4:
+        alert("Свободная касса №4");
+        break;
+        default:
+        alert("Все кассы заняты");
+}
