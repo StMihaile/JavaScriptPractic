@@ -259,4 +259,24 @@ console.log("Сумма налога:", tax);
 
 */
 
+/*
+
 16
+
+
+const age = 18;
+function doSomething() {
+    if (age < 18) {
+        console.log("Несовершеннолетний");
+    } else {
+        console.log("Совершеннолетний");
+    }
+}
+
+doSomething();
+
+*/
+
+17
+
+
