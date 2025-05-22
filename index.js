@@ -43,6 +43,10 @@ console.log(sum);*/
 
 
 
+/*
+
+3
+
 let password = prompt('Введите пароль');
 let repeatPassword = prompt('повторите введённый пароль');
 if (password == repeatPassword) {
@@ -50,4 +54,20 @@ if (password == repeatPassword) {
 } else {
     alert("Пароли не совпадают");
 }
+    */
 
+/*
+
+4
+
+let isSunny = true;
+let temperature = 22;
+let hasUmbrella = false;
+
+if (isSunny||hasUmbrella&&temperature>=20&&temperature<=30){
+    console.log("Можно устроить пикник");
+} else {
+    "Не стоит идти на пикник"
+}
+
+*/
