@@ -87,6 +87,8 @@ console.log(typeof s3, s3);
 
 */
 
+/*
+
 6
 
 const string = '12';
@@ -113,3 +115,57 @@ else {
     finalScore = score;
 }
 console.log(finalScore);
+
+*/
+/*
+9
+
+const tumbler = false;
+if(tumbler === true) {
+    console.log("Свет включен");
+}else {
+    console.log("Свет выключен");
+}
+
+if(tumbler) {
+    console.log("Свет включен");
+}else {
+    console.log("Свет выключен");
+
+
+tumbler ? console.log("Свет включен"):console.log("Свет выключен");
+
+*/
+
+10
+
+const day = 6;
+let dayName;
+switch (day) {
+    case 1:
+        dayName = "Понедельник";
+        break;
+    case 2:
+        dayName = "Вторник";
+        break;
+    case 3:
+        dayName = "Среда";
+        break;
+    case 4:
+        dayName = "Четверг";
+        break;
+    case 5:
+        dayName = "Пятница";
+        break;
+    case 6:
+        dayName = "Суббота";
+        break;
+    case 7:
+        dayName = "Воскресение";
+        break;
+    default:
+        dayName = "Некорректный день";
+        break;
+
+}
+console.log(dayName);
