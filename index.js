@@ -172,6 +172,7 @@ console.log(dayName);
 
 */
 
+/*
 11
 
 const isRain = true;
@@ -211,3 +212,51 @@ switch (freeTill) {
         default:
         alert("Все кассы заняты");
 }
+
+*/
+
+/*
+14
+
+const cardInserted = true; // Указывает, что карта вставлена
+const balance = 500; // Доступная сумма
+
+const amount = 1000; // Ввод суммы операции
+
+if (cardInserted&&amount<=balance) {
+  console.log("Операция выполняется");
+} else {
+  console.log("Операция отклонена")
+}
+
+*/
+
+15
+/*
+
+let carPower = 110;
+let taxRate;
+if (carPower < 100) {
+    taxRate = 12;
+} else if (carPower >= 100 && carPower < 125) {
+    taxRate = 25;
+} else if (carPower >= 125 && carPower < 150) {
+    taxRate = 35;
+} else if (carPower >= 150 && carPower < 175) {
+    taxRate = 45;
+} else if (carPower >= 175 && carPower < 200) {
+    taxRate = 50;
+} else if (carPower >= 200 && carPower < 225) {
+    taxRate = 65;
+} else if (carPower >= 225 && carPower < 250) {
+    taxRate = 75;
+} else {
+    taxRate = 150;
+}
+let tax = carPower * taxRate;
+
+console.log("Сумма налога:", tax);
+
+*/
+
+16
