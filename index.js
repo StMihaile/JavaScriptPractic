@@ -71,3 +71,15 @@ if (isSunny||hasUmbrella&&temperature>=20&&temperature<=30){
 }
 
 */
+
+5
+
+const number = 23;
+
+const s1 = String(number);
+const s2 = "" + number;
+const s3 = `${number}`
+
+console.log(typeof s1, s1);
+console.log(typeof s2, s2);
+console.log(typeof s3, s3);
