@@ -385,3 +385,11 @@ function countPlusOne() {
     console.log(++count);
 }
 */
+
+/*
+27
+
+function totalSum(priceItem, amountItem, discountItem) {
+    let discount = priceItem / 100 * discountItem;
+    return (priceItem - discount) * amountItem;
+}*/
