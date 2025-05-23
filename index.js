@@ -367,3 +367,21 @@ const newPow = (n) => n * n;
 console.log(newPow(10));
 
 */
+
+/*
+24
+
+const getAverage = (a, b, c) => (a + b + c) / 3;
+
+25
+
+const celsiusToFahrenheit = n => n * 1.8 + 32;
+const fahrenheitToCelsius = n => (n - 32) / 1.8;
+
+26
+
+let count = 3;
+function countPlusOne() {
+    console.log(++count);
+}
+*/
