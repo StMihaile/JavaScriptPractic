@@ -332,3 +332,30 @@ function sum(a = 0, b = 0, c = 0) {
 sum(10, 20, "Строка");
 
 */
+
+/*
+
+21
+
+function pow(n) {
+    return n * n;
+}
+const result = pow(3);
+
+console.log(result);
+
+*/
+/*
+22
+
+function returnIf(a, b) {
+    if (a > b) {
+        return "A больше B"
+    } else {
+        return "A меньше B"
+    }
+}
+
+console.log(returnIf(1, 2));
+
+*/
