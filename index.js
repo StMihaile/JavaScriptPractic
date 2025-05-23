@@ -317,3 +317,18 @@ function sum (a,b,c) {
 sum(10,20,30);
 
 */
+
+/*
+20
+
+function sum(a = 0, b = 0, c = 0) {
+    if (typeof a === "number" && typeof b === "number" && typeof c === "number") {
+        console.log(a + b + c);
+    } else {
+        console.log("Неверные параметры");
+    }
+}
+
+sum(10, 20, "Строка");
+
+*/
