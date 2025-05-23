@@ -277,6 +277,8 @@ doSomething();
 
 */
 
+
+/*
 17
 
 function calc() {
@@ -286,3 +288,32 @@ function calc() {
 }
 
 calc();
+
+*/
+/*
+18
+
+
+function checkAge(age) {
+    if(age < 18){
+        console.log("Несовершеннолетний");
+    } else {
+        console.log("Совершеннолетний");
+    }
+}
+
+checkAge(21)
+checkAge(16)
+
+*/
+
+/*
+19
+
+function sum (a,b,c) {
+    console.log(a+b+c);
+}
+
+sum(10,20,30);
+
+*/
