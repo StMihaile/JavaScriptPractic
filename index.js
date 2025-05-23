@@ -359,3 +359,11 @@ function returnIf(a, b) {
 console.log(returnIf(1, 2));
 
 */
+
+/*
+23
+
+const newPow = (n) => n * n;
+console.log(newPow(10));
+
+*/
