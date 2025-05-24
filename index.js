@@ -442,5 +442,20 @@ contentEL.append(h1El);
 contentEL.prepend(headerEl);
 */
 
+/*
 4
+
+const contentEl = document.querySelector('.content');
+
+const h2El = document.createElement('h2');
+const pEl = document.createElement('p');
+
+h2El.textContent = "Название статьи";
+pEl.textContent = "Произвольный текст";
+
+contentEl.prepend(h2El);
+contentEl.append(pEl);
+*/
+
+5
 
