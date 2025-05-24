@@ -393,3 +393,20 @@ function totalSum(priceItem, amountItem, discountItem) {
     let discount = priceItem / 100 * discountItem;
     return (priceItem - discount) * amountItem;
 }*/
+
+
+// DOM
+
+/*
+1
+
+const contentEL = document.querySelector('.content');
+const h1El = document.createElement('h1');
+contentEL.append(h1El);
+const headerEl = document.createElement('header');
+contentEL.prepend(headerEl);
+console.log(contentEL);
+console.log(h1El);
+*/
+
+2
