@@ -409,4 +409,14 @@ console.log(contentEL);
 console.log(h1El);
 */
 
+/*
+
 2
+
+const contentEl = document.querySelector('.content');
+const h2El = document.createElement('h2');
+contentEl.prepend(h2El);
+const pEl = document.createElement('p');
+contentEl.append(pEl);
+
+*/
