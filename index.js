@@ -420,3 +420,27 @@ const pEl = document.createElement('p');
 contentEl.append(pEl);
 
 */
+
+/*
+3
+
+const contentEL = document.querySelector('.content');
+const h1El = document.createElement('h1');
+const headerEl = document.createElement('header');
+headerEl.innerHTML = '<span>text header</span>'
+
+//const textTitle = document.createTextNode('new heading node');
+//h1El.append(textTitle);
+
+
+const userName = 'John';
+
+h1El.textContent = `Heading title element ${userName}`;
+
+
+contentEL.append(h1El);
+contentEL.prepend(headerEl);
+*/
+
+4
+
