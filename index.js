@@ -457,5 +457,39 @@ contentEl.prepend(h2El);
 contentEl.append(pEl);
 */
 
+/*
+
 5
 
+const contentEL = document.querySelector('.content');
+const h1El = document.createElement('h1');
+const headerEl = document.createElement('header');
+//const titleEl = document.querySelector('.title');
+//titleEl.classList.remove('title')
+
+headerEl.innerHTML = '<span>text header</span>';
+headerEl.classList.add('header');
+console.log(headerEl.classList.contains('header'));
+
+headerEl.classList.remove('header');
+console.log(headerEl.classList.contains('header'));
+
+headerEl.classList.toggle('header');
+
+console.log(headerEl.classList.contains('header'));
+
+//const textTitle = document.createTextNode('new heading node');
+//h1El.append(textTitle);
+
+
+const userName = 'John';
+
+h1El.textContent = `Heading title element ${userName}`;
+h1El.style.color = 'forestgreen';
+h1El.style.backgroundColor = 'gray';
+
+
+contentEL.append(h1El);
+contentEL.prepend(headerEl);
+
+*/
