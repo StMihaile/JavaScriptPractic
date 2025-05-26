@@ -493,3 +493,34 @@ contentEL.append(h1El);
 contentEL.prepend(headerEl);
 
 */
+/*
+6
+
+function firstFunc() {
+    console.log('first function');
+}
+
+function secondFunc() {
+    console.log("second function");
+}
+
+firstFunc();
+secondFunc();
+
+*/
+
+/*
+7 
+
+function hello(name) {
+    console.log(`Hello,Misham ${name}`);
+}
+
+function sayHello(callback) {
+    const userName = prompt('Ваше имя')
+    callback(userName);
+}
+
+sayHello(hello);
+
+*/
