@@ -543,3 +543,22 @@ function processUserInput (callback) {
 processUserInput(age);
 
 */
+/*
+
+9
+
+const buttonEl = document.querySelector('.button');
+const titleEl = document.querySelector('.title');
+
+
+buttonEl.onclick = function () {
+    // console.log('Hello click');
+
+    titleEl.textContent = "New text click";
+    buttonEl.classList.toggle("blue")
+    buttonEl.style.backgroundColor = 'red';
+
+
+}
+
+*/
