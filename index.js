@@ -562,3 +562,20 @@ buttonEl.onclick = function () {
 }
 
 */
+/*
+10
+
+const contentEL = document.querySelector('.content');
+const buttonEl = document.querySelector('.btn');
+
+const blockEl = document.createElement("div");
+blockEl.classList.add('block');
+blockEl.textContent = "New block"
+
+buttonEl.onclick = function () {
+    contentEL.append(blockEl);
+}
+    */
+
+
+11
