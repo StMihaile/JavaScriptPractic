@@ -577,5 +577,17 @@ buttonEl.onclick = function () {
 }
     */
 
+/*
 
 11
+
+
+const buttonEl = document.querySelector('.myButton');
+const counterEl = document.querySelector('.counter');
+let count = 0;
+buttonEl.onclick = function() {
+    count++;
+    counterEl.textContent = `Счетчик: ${count}`;
+}
+
+*/
