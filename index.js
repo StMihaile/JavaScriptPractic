@@ -513,7 +513,7 @@ secondFunc();
 7 
 
 function hello(name) {
-    console.log(`Hello,Misham ${name}`);
+    console.log(`Hello, ${name}`);
 }
 
 function sayHello(callback) {
@@ -522,5 +522,24 @@ function sayHello(callback) {
 }
 
 sayHello(hello);
+
+*/
+/*
+
+8
+
+function age(age){
+if(age >=18 18) {
+    console.log("Добро пожаловать на наш взрослый сайт!");
+}else {
+    console.log("Извините, доступ только для совершеннолетних");
+}
+}
+function processUserInput (callback) {
+    const userAge = prompt('Введите Ваш возраст');
+    callback(userAge);
+}
+
+processUserInput(age);
 
 */
