@@ -632,3 +632,20 @@ arr2[arr2.length] = 'табуретка';
 console.log(arr2, arr2.length);
 
 */
+/*
+2
+
+const products = ['шкаф', 'стул', 'комод'];
+
+//products.push('стол');
+//products.pop();
+//const lastProduct = products.pop();
+//products.shift();
+//const firstProduct = products.shift();
+//products.unshift('табуретка');
+
+console.log(products);
+//console.log(lastProduct);
+//console.log(firstProduct);
+
+*/
