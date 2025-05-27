@@ -591,3 +591,17 @@ buttonEl.onclick = function() {
 }
 
 */
+/*
+12
+
+let cartElem = document.querySelector('#cart');
+
+function addToCart(num) {
+    let product = document.createElement("li");
+    cartElem.append(product);
+    product.textContent = num;
+}
+    
+*/
+
+

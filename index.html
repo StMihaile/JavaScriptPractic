@@ -24,7 +24,7 @@
 </head>
 
 <body>
-    <h1 class="title">Lorem ipsum dolor sit.</h1>
+    <!--<h1 class="title">Lorem ipsum dolor sit.</h1>
     <div class="content">
         <button class="btn">add block</button>
     </div>
@@ -32,6 +32,25 @@
 
     <button class="myButton">Увеличить счётчик</button>
     <p class="counter">Счётчик: 0</p>
+-->
+    <h1>Каталог товаров</h1>
+    <ul id="product-list">
+        <li>
+            <span>Товар 1</span>
+            <button onclick="addToCart('Товар 1')">Добавить в корзину</button>
+        </li>
+        <li>
+            <span>Товар 2</span>
+            <button onclick="addToCart('Товар 2')">Добавить в корзину</button>
+        </li>
+        <li>
+            <span>Товар 3</span>
+            <button onclick="addToCart('Товар 3')">Добавить в корзину</button>
+        </li>
+    </ul>
+    <h2>Корзина</h2>
+    <ul id="cart">
+    </ul>
     <script src="index.js"></script>
 </body>
 
