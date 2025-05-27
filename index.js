@@ -605,3 +605,30 @@ function addToCart(num) {
 */
 
 
+// ARR
+/*
+
+1
+
+let arr1 = new Array();
+const arr2 = ['шкаф', 'стул', 'комод'];
+console.log(arr1);
+console.log(arr2);
+
+console.log(arr2[0]);
+console.log(arr2[1]);
+
+arr2[0] = 'стол';
+console.log(arr2);
+
+arr2[3] = 'шкаф';
+console.log(arr2);
+
+arr2[6] = 'диван';
+console.log(arr2);
+
+console.log(arr2.length); 
+arr2[arr2.length] = 'табуретка';
+console.log(arr2, arr2.length);
+
+*/
