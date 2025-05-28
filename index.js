@@ -707,3 +707,13 @@ do {
 } while (pass !== 'пароль');
 
 */
+/*
+9
+
+for (let i = 0; i < 3; i++) {
+    console.log('hello for');
+}
+    */
+
+10
+
