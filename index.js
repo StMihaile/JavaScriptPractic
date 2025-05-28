@@ -725,3 +725,14 @@ contentEL.append(h2El);
 }
 
 */
+/*
+11
+
+const contentEL = document.querySelector('.content');
+for (let i = 1; i <= 33; i++) {
+const h2El = document.createElement('h2');
+h2El.textContent = `${i} Заголовок на странице`
+contentEL.append(h2El);
+    
+}*/
+
