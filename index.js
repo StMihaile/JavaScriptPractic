@@ -714,6 +714,14 @@ for (let i = 0; i < 3; i++) {
     console.log('hello for');
 }
     */
-
+/*
 10
+const contentEL = document.querySelector('.content');
+for (let i = 1; i <= 3; i++) {
+const h2El = document.createElement('h2');
+h2El.textContent = 'Hello for in html'
+contentEL.append(h2El);
+    
+}
 
+*/
