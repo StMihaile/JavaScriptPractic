@@ -735,4 +735,12 @@ h2El.textContent = `${i} Заголовок на странице`
 contentEL.append(h2El);
     
 }*/
+/*
+12
 
+const products = ['шкаф','стол','стул'];
+for (let i = 0; i < products.length; i++) {
+    const elem = products[i];
+    console.log(elem);   
+}
+    */
