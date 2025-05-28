@@ -692,5 +692,18 @@ while(pass !== 'пароль'){
 }
 
 */
-
+/*
 8
+
+let pass;
+let counter = 0;
+do {
+    if (counter > 1) {
+        if (confirm('хотите выйти')) {
+            break;
+        }
+    }
+    pass = prompt('Введите пароль');
+} while (pass !== 'пароль');
+
+*/
