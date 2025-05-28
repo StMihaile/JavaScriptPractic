@@ -649,3 +649,28 @@ console.log(products);
 //console.log(firstProduct);
 
 */
+
+3
+
+let i = 0;
+while(i<3){
+console.log('hello while');
+i++;
+}
+
+4
+
+
+while(true) {
+    console.log(1);
+    break;
+}
+
+5
+
+let ready = confirm('Согласен ли');
+while(ready === false){
+    alert('Вам нужно согласиться с условием');
+    ready = confirm('Согласен ли');
+}
+
