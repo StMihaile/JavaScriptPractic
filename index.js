@@ -649,7 +649,7 @@ console.log(products);
 //console.log(firstProduct);
 
 */
-
+/*
 3
 
 let i = 0;
@@ -673,4 +673,10 @@ while(ready === false){
     alert('Вам нужно согласиться с условием');
     ready = confirm('Согласен ли');
 }
+*/
 
+6
+
+while(!confirm('Согласен ли')) {
+    alert('Вам нужно согласиться с условиями');
+}
