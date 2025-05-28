@@ -744,3 +744,19 @@ for (let i = 0; i < products.length; i++) {
     console.log(elem);   
 }
     */
+/*
+13
+const contentEL = document.querySelector('.content');
+const products = ['шкаф', 'стол', 'стул', 'диван'];
+for (let i = 0; i < products.length; i++) {
+    const h3El = document.createElement('h3');
+    h3El.textContent = `Товар номер ${i + 1}`;
+    const nameProduct = document.createElement('p');
+    nameProduct.textContent = products[i];
+    contentEL.append(h3El);
+    contentEL.append(nameProduct);
+}   
+    */
+
+14
+
