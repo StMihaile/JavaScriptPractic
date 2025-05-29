@@ -805,3 +805,38 @@ for (const element of product) {
     productEl.append(liEl);
 }
 */
+/*
+17
+
+const numbers = [12, 5, 8, 20, 3, 6, 8, 19];
+let min = numbers[0];
+let max = numbers[0];
+for (const element of numbers) {
+    if (element < min) {
+        min = element
+    }
+    if (element > max) {
+        max = element
+    }
+
+}
+
+const array = document.querySelector('.all-elements');
+const buttonMin = document.querySelector('.min');
+const buttonMax = document.querySelector('.max');
+const minNumber = document.querySelector('.minNumber');
+const maxNumber = document.querySelector('.maxNumber');
+
+for (const element of numbers) {
+    array.textContent += element + ", ";
+}
+
+buttonMin.onclick = function () {
+    minNumber.textContent = min;
+}
+
+buttonMax.onclick = function () {
+    maxNumber.textContent = max;
+}
+
+*/
