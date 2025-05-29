@@ -757,7 +757,7 @@ for (let i = 0; i < products.length; i++) {
     contentEL.append(nameProduct);
 }   
     */
-
+/*
 14
 
 
@@ -771,3 +771,22 @@ for (const key in products) {
 for (const key in products) {
     console.log(products[key]);
 }
+
+*/
+/*
+15
+
+const contentEL = document.querySelector('.content');
+const products = ['шкаф', 'стол', 'стул', 'диван'];
+
+for (const element of products) {
+    console.log(element);
+}
+
+for (const element of products) {
+    const h3El = document.createElement('h3');
+    h3El.textContent = element;
+    contentEL.append(h3El);
+}
+
+*/
