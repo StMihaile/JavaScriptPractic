@@ -790,3 +790,18 @@ for (const element of products) {
 }
 
 */
+/*
+16
+
+let product = ["Мышка", "Клавиатура", "Наушники"];
+product.push('Монитор');
+product.push('Принтер');
+product.push('Флешка');
+const productEl = document.querySelector('.products');
+
+for (const element of product) {
+    const liEl = document.createElement('li');
+    liEl.textContent = element;
+    productEl.append(liEl);
+}
+*/
