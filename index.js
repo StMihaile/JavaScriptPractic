@@ -760,3 +760,14 @@ for (let i = 0; i < products.length; i++) {
 
 14
 
+
+const contentEL = document.querySelector('.content');
+const products = ['шкаф', 'стол', 'стул', 'диван'];
+
+for (const key in products) {
+    console.log(key);
+}
+
+for (const key in products) {
+    console.log(products[key]);
+}
