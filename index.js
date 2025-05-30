@@ -846,11 +846,28 @@ buttonMax.onclick = function () {
 const arr = ['Кофе', 'Сок', 'Чай', 'Вода', 'Молоко'];
 const search = "Вода";
 
-let result = false;
+let result = -1;
 
 for (let i = 0; i < arr.length; i++) {
     if (arr[i] === search) {
-        result = true;
+        result = i;
+        break;
     }
 }
-console.log(result);
+
+19
+
+
+function find(arr, search) {
+    let result = -1;
+
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === search) {
+            return i
+        }
+    }
+    return -1;
+}
+console.log(find(arr, 'Вода'));
+console.log(find(arr, 'Смузи'));
+console.log(find(arr, 'Чай'));
