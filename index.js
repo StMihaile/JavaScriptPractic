@@ -881,7 +881,7 @@ console.log(find(arr, 'Чай'));
 function filter(arr, search) {
     let result = -1
 
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
         if (arr[i] === search) {
             result = i;
             break
@@ -920,3 +920,51 @@ document.body.append(listEl);
 renderList(users);
 
 */
+/*
+22
+
+function find(arr, search) {
+    let result = -1
+
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === search) {
+            result = i;
+            break
+        }
+    }
+    return result;
+}
+
+const users = ['Яна', 'Олег', 'Витя', 'Саша', 'Таня', 'Яна', 'Василий', 'Евгения', 'Настя'];
+function renderList(arr) {
+    const listEl = document.createElement('ul');
+for (let i = 0; i < arr.length; i++) {
+    const liEl = document.createElement('li');
+    liEl.textContent = `${i + 1}) ${arr[i]}`;
+    listEl.append(liEl)
+}
+document.body.append(listEl);
+}
+
+const seaechBtn = document.createElement('button');
+seaechBtn.textContent = 'Поиск';
+document.body.append(seaechBtn);
+
+seaechBtn.onclick = function() {
+    const search = prompt('Укажите имя для поиска');
+    
+    const findIndex = find(users,search);
+
+    if(findIndex > -1) {
+        document.querySelector(`li:nth-child(${findIndex+1})`).style.color = 'red';
+    }else{
+        alert('Имя не найдено');
+    }
+
+}
+
+renderList(users);
+
+*/
+
+
