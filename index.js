@@ -901,3 +901,22 @@ for (let i = 0; i < users.length; i++) {
 document.body.append(listEl);
 
 */
+
+/*
+21
+
+
+const users = ['Яна', 'Олег', 'Витя', 'Саша', 'Таня', 'Яна', 'Василий', 'Евгения', 'Настя'];
+function renderList(arr) {
+    const listEl = document.createElement('ul');
+for (let i = 0; i < arr.length; i++) {
+    const liEl = document.createElement('li');
+    liEl.textContent = `${i + 1}) ${arr[i]}`;
+    listEl.append(liEl)
+}
+document.body.append(listEl);
+}
+
+renderList(users);
+
+*/
