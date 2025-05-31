@@ -840,7 +840,7 @@ buttonMax.onclick = function () {
 }
 
 */
-
+/*
 18
 
 const arr = ['Кофе', 'Сок', 'Чай', 'Вода', 'Молоко'];
@@ -871,3 +871,33 @@ function find(arr, search) {
 console.log(find(arr, 'Вода'));
 console.log(find(arr, 'Смузи'));
 console.log(find(arr, 'Чай'));
+
+*/
+
+/*
+
+20
+
+function filter(arr, search) {
+    let result = -1
+
+    for (let i = 0; i < array.length; i++) {
+        if (arr[i] === search) {
+            result = i;
+            break
+        }
+    }
+    return result;
+}
+
+const users = ['Яна', 'Олег', 'Витя', 'Саша', 'Таня', 'Яна', 'Василий', 'Евгения', 'Настя'];
+
+const listEl = document.createElement('ul');
+for (let i = 0; i < users.length; i++) {
+    const liEl = document.createElement('li');
+    liEl.textContent = `${i + 1}) ${users[i]}`;
+    listEl.append(liEl)
+}
+document.body.append(listEl);
+
+*/
