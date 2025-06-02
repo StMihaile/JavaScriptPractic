@@ -967,6 +967,7 @@ renderList(users);
 
 */
 
+/*
 23
 
 const arr = [19, 21, 11, 5, 18];
@@ -977,4 +978,22 @@ for (const elem of arr) {
     }
 }
 console.log(result);
+*/
+/*
+24
 
+const arr = [19, 21, 11, 5, 18];
+
+function filter(arr, minAge) {
+    const result = [];
+    for (const elem of arr) {
+        if (elem >= minAge) {
+            result.push(elem)
+        }
+    }
+    return result;
+}
+console.log(filter(arr, 18));
+console.log(filter(arr, 10));
+
+*/
