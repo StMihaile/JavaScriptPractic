@@ -967,4 +967,14 @@ renderList(users);
 
 */
 
+23
+
+const arr = [19, 21, 11, 5, 18];
+const result = [];
+for (const elem of arr) {
+    if (elem >= 18) {
+        result.push(elem)
+    }
+}
+console.log(result);
 
