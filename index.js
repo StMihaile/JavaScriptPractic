@@ -1041,3 +1041,32 @@ document.body.append(listEl);
 renderList(userAge)
 
 */
+/*
+26
+
+let A = 7;
+let B = 3;
+let C = 1;
+
+console.log(A, B, C);
+
+if (A > B) {
+    let temp = A;
+    A = B;
+    B = temp;
+}
+
+if (B > C) {
+    let temp = B;
+    B = C;
+    C = temp;
+}
+
+if (A > B) {
+    let temp = A;
+    A = B;
+    B = temp;
+}
+console.log(A, B, C);
+
+*/
