@@ -1110,3 +1110,47 @@ function sort(array) {
 
 console.log(sort(arr));
 */
+
+/*
+29
+
+
+function sort(array) {
+    for (let i = 0; i < array.length; i++) {
+        for (let j = 0; j < array.length - 1; j++) {
+            if (array[j] > array[j + 1]) {
+                let temp = array[j];
+                array[j] = array[j + 1];
+                array[j + 1] = temp;
+            }
+
+        }
+    }
+    return array;
+}
+
+const usersAge = [11, 23, 34, 11, 12, 4, 55, 21, 23];
+
+function renderList(arr) {
+    listEl.innerHTML = '';
+    for (let i = 0; i < arr.length; i++) {
+        let liEl = document.createElement('li');
+        liEl.textContent = `${i + 1}) Возраст: ${arr[i]}`;
+        listEl.append(liEl);
+    }
+}
+
+
+const sortBtn = document.createElement('button');
+sortBtn.textContent = 'Сортировать';
+document.body.append(sortBtn);
+
+sortBtn.onclick = function () {
+    const result = sort(usersAge);
+    renderList(result);
+}
+
+const listEl = document.createElement('ul');
+document.body.append(listEl);
+
+*/
