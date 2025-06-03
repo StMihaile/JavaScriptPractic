@@ -1076,7 +1076,7 @@ console.log(A, B, C);
 const arr = [7, 3, 9, 4, 5];
 console.log(arr);
 
-for (let i = 0; i < array.length; i++) {
+for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < arr.length - 1; j++) {
         if (arr[j] > arr[j + 1]) {
             let temp = arr[j];
@@ -1089,4 +1089,24 @@ for (let i = 0; i < array.length; i++) {
 
 console.log(arr);
 
+*/
+/*
+28
+
+const arr = [7, 3, 9, 4, 5];
+function sort(array) {
+    for (let i = 0; i < array.length; i++) {
+        for (let j = 0; j < array.length - 1; j++) {
+            if (array[j] > array[j + 1]) {
+                let temp = array[j];
+                array[j] = array[j + 1];
+                array[j + 1] = temp;
+            }
+
+        }
+    }
+    return array;
+}
+
+console.log(sort(arr));
 */
