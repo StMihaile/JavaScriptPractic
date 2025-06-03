@@ -997,3 +997,47 @@ console.log(filter(arr, 18));
 console.log(filter(arr, 10));
 
 */
+
+/*
+25
+
+function filter(arr, minAge) {
+    const result = [];
+    for (const elem of arr) {
+        if (elem >= minAge) {
+            result.push(elem)
+        }
+    }
+    return result;
+}
+
+const userAge = [11, 23, 34, 11, 12, 4, 55, 21, 23];
+
+function renderList(userAge) {
+    listEl.innerHTML = '';
+    for (let i = 0; i < userAge.length; i++) {
+        const liEl = document.createElement('li');
+        liEl.textContent = `${i + 1} возраст: ${userAge[i]}`
+        listEl.append(liEl);
+    }
+}
+
+const filterBtn = document.createElement('button');
+filterBtn.textContent = 'Фильтр';
+document.body.append(filterBtn);
+
+filterBtn.onclick = function () {
+    const minAge = prompt('Введите возраст');
+
+    const result = filter(userAge, minAge);
+
+    renderList(result);
+}
+
+
+const listEl = document.createElement('ul');
+document.body.append(listEl);
+
+renderList(userAge)
+
+*/
