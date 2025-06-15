@@ -1154,3 +1154,35 @@ const listEl = document.createElement('ul');
 document.body.append(listEl);
 
 */
+/*
+
+30
+
+ let str = 'Hello World new'
+ console.log(str.length);
+
+ console.log(str[0]);
+
+ console.log(str[5]);
+
+ let newStr = str.toLowerCase();
+ console.log(newStr);
+
+ console.log(str.indexOf('l'));
+ console.log(str.lastIndexOf('l'));
+
+ console.log(str.slice(0, 5));
+
+ console.log(str.substring(6, 11));
+
+ console.log(str.replace('World', 'Mars'));
+
+ console.log(str.split(' '));
+
+ console.log(str.trim());
+
+ console.log(str.startsWith('Hello'));
+
+ console.log(str.endsWith ('new'));
+*/
+
