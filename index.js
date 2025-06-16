@@ -1185,4 +1185,30 @@ document.body.append(listEl);
 
  console.log(str.endsWith ('new'));
 */
+/*
 
+31
+
+let app = document.querySelector('#app');
+let product = ['Шкаф',
+    'Стул',
+    'Стол',
+    'Шкаф'
+];
+
+product.forEach(element => {
+    let h3Elem = document.createElement('h3');
+    h3Elem.textContent = element;
+    let textEl = document.createElement('p');
+    textEl.textContent = 'text info product';
+    app.append(h3Elem);
+    app.append(textEl);
+});
+
+console.log(product.indexOf('Стул'));
+console.log(product.lastIndexOf('Стул'));
+console.log(product.includes('Стул'));
+
+console.log(product.find(item=>item == 'Стул'));
+
+*/
