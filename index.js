@@ -1300,4 +1300,12 @@ console.log(arr.reduce((acc, price) => acc + price));
 
 */
 
+/*
 39
+
+const arr = [1000, 400, 2500, 40, 500, 300, 70];
+
+console.log(arr.sort((a,b) => a - b));
+console.log(arr.sort((a,b) => b - a));
+
+*/
