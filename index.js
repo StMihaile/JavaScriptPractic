@@ -1230,5 +1230,24 @@ function calc(a,b,funcName) {
 console.log(calc(5,10,sum));
 console.log(calc(5,10,sub));
 */
-
+/*
 33
+
+setTimeout(() => {
+    console.log('Хорошо, что вы пришли к нам на сайт');
+}, 5000);
+
+console.log('Хорошо, что вы пришли к нам на сайт');
+
+setInterval(hello, 10000)
+   function hello() {
+    return console.log('Хорошо, что вы пришли к нам на сайт');
+}
+;
+
+
+function hello() {
+    return console.log('Хорошо, что вы пришли к нам на сайт');
+}
+
+*/
