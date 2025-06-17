@@ -1291,3 +1291,13 @@ const arr = [1000, 400, 2500, 40, 500, 300, 70]
 console.log(arr.map(item => item * 0.9));
 
 */
+/*
+38
+
+const arr = [1000, 400, 2500, 40, 500, 300, 70];
+
+console.log(arr.reduce((acc, price) => acc + price));
+
+*/
+
+39
