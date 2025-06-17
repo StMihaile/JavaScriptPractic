@@ -1260,8 +1260,13 @@ arr.forEach(element => {
     console.log(element)
 });
 */
-
+/*
 35
 
+const arr = [1, 2, 3, 4, 5, 6];
 
+console.log(arr.filter(number => number % 2));
+console.log(arr.filter(number => number >= 2));
+console.log(arr.filter(number => number < 3));
 
+*/
