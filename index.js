@@ -1271,6 +1271,8 @@ console.log(arr.filter(number => number < 3));
 
 */
 
+/*
+
 36
 
 const productPrice = [1000, 500, 2500, 1500, 2000];
@@ -1280,3 +1282,4 @@ console.log(productPrice.filter(priceInfo));
 function priceInfo(elem) {
     return elem > 1000;
 }
+    */
