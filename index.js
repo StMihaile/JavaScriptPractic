@@ -1212,3 +1212,23 @@ console.log(product.includes('Стул'));
 console.log(product.find(item=>item == 'Стул'));
 
 */
+/*
+32
+
+function sum(a,b) {
+    return a+b;
+}
+
+function sub(a,b) {
+    return a-b;
+}
+
+function calc(a,b,funcName) {
+    return funcName(a,b)
+}
+
+console.log(calc(5,10,sum));
+console.log(calc(5,10,sub));
+*/
+
+33
