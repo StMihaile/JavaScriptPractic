@@ -1283,3 +1283,11 @@ function priceInfo(elem) {
     return elem > 1000;
 }
     */
+/*
+37
+
+const arr = [1000, 400, 2500, 40, 500, 300, 70]
+
+console.log(arr.map(item => item * 0.9));
+
+*/
