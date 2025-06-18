@@ -1318,7 +1318,7 @@ console.log(word.join(''));
 console.log(word.toLocaleString());
 console.log(word.join('').toUpperCase());
 */
-
+/*
 41
 
 const productPrice = [1000, 500, 700, 2000];
@@ -1327,4 +1327,14 @@ console.log(productPrice
                  .filter(item=>item > 500)
                  .map(elem => elem * 0.8)
                  .reduce((a,b) => a + b));
+*/
+/*
+42
 
+const productPrice = [1000, 500, 700, 2000];
+
+console.log(productPrice
+                 .sort((a,b) => a - b)
+                 .shift()
+);
+*/
