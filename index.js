@@ -1309,7 +1309,7 @@ console.log(arr.sort((a,b) => a - b));
 console.log(arr.sort((a,b) => b - a));
 
 */
-
+/*
 40
 
 const word = ['H', 'e', 'l', 'l', 'o'];
@@ -1317,3 +1317,14 @@ const word = ['H', 'e', 'l', 'l', 'o'];
 console.log(word.join(''));
 console.log(word.toLocaleString());
 console.log(word.join('').toUpperCase());
+*/
+
+41
+
+const productPrice = [1000, 500, 700, 2000];
+
+console.log(productPrice
+                 .filter(item=>item > 500)
+                 .map(elem => elem * 0.8)
+                 .reduce((a,b) => a + b));
+
